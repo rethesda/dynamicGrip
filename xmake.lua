@@ -6,7 +6,7 @@ includes("lib/commonlibsse-ng")
 
 -- set project
 set_project("DynamicGrip")
-set_version("0.6.2")
+set_version("0.8.0")
 set_license("GPL-3.0")
 
 -- set defaults
@@ -33,7 +33,7 @@ target("DynamicGrip")
     add_rules("commonlibsse-ng.plugin", {
         name = "DynamicGrip",
         author = "bosn",
-        description = "SKSE64 plugin template using CommonLibSSE-NG"
+        description = "SKSE64 plugin using CommonLibSSE-NG"
     })
 
     -- add src files
